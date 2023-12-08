@@ -65,7 +65,7 @@ plt.show()
 ***YOU NEED TO RUN CODE WITH PICKLE FILE***
 
 ## copyright and license
-Copyright (c) 2023 중앙대22 이성욱
+Copyright (c) 2023 CAUAI22 이성욱 <br/> 
 MIT License
 
 ## contact info
