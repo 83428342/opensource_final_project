@@ -2,11 +2,11 @@
 It contains sklearn machine learning model classifying tumor datasets of opensoureSW Final Project
 
 ## Evaluation environment
-OS: Windows 11 10.0
-numpy: 1.24.3
-scikit learn: 1.3.0
-scikit image: 0.20.0
-// versions can be slightly different (also result)
+OS: Windows 11 10.0 <br/> 
+numpy: 1.24.3 <br/> 
+scikit learn: 1.3.0 <br/> 
+scikit image: 0.20.0 <br/> 
+// versions can be slightly different (also result) 
 
 ## training dataset
 ```
