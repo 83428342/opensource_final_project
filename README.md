@@ -1,4 +1,4 @@
-# opensource_final_project
+# Opensource_final_project
 It contains sklearn machine learning model classifying tumor datasets of opensoureSW Final Project
 
 ## Evaluation environment
@@ -8,7 +8,13 @@ scikit learn: 1.3.0 <br/>
 scikit image: 0.20.0 <br/> 
 // versions can be slightly different (also result) 
 
-## training dataset
+## Additional libraries
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import VotingClassifier, BaggingClassifier
+import pickle
+
+## Training dataset
 ```
 // make MRI scan to 64X64 digit array by contrast colors
 image_size = 64
@@ -31,7 +37,7 @@ X = images.reshape((-1, image_size**2))
 y = np.array(y)
 ```
 
-## modeling
+## Modeling
 ```
 // construct basic models by using KNN and SVC with handeling parameters.
 knn = KNeighborsClassifier(n_neighbors=1)
@@ -54,7 +60,7 @@ y_pred = model.predict(X_test)
 print('Accuracy: %.2f' % sklearn.metrics.accuracy_score(y_test, y_pred))
 ```
 
-## techniques to reason appropriate parameters
+## Techniques to reason appropriate parameters
 ```
 // used cofusin matrix
 conf_matrix = confusion_matrix(y_test, y_pred, labels=['glioma_tumor', 'meningioma_tumor', 'no_tumor', 'pituitary_tumor'])
@@ -68,12 +74,12 @@ plt.title('Confusion Matrix')
 plt.show()
 ```
 
-## note
+## Note(Important)
 ***YOU NEED TO RUN CODE WITH PICKLE FILE***
 
-## copyright and license
+## Copyright and license
 Copyright (c) 2023 CAUAI22 이성욱 <br/> 
 MIT License
 
-## contact info
+## Contact info
 E-mail: bill8342@naver.com
