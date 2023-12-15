@@ -75,7 +75,7 @@ plt.show()
 ```
 
 ## Note(Important)
-***YOU NEED TO RUN CODE WITH PICKLE FILE***
+***YOU NEED TO RUN CODE WITH PICKLE FILE(submitted by eclass)***
 
 ## Copyright and license
 Copyright (c) 2023 CAUAI22 이성욱 <br/> 
