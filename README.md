@@ -33,8 +33,8 @@ for i in labels:
         
 images = np.array(images)
 
-X = images.reshape((-1, image_size**2))
-y = np.array(y)
+X_test = images.reshape((-1, image_size**2))
+y_test = np.array(y)
 ```
 
 ## Modeling
